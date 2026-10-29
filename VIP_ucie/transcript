@@ -1,0 +1,560 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+#   Lane words looped: 4
+
+vsim SV_TOP
+# vsim SV_TOP 
+# Start time: 17:28:13 on Sep 21,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.ucie_dpi_pkg(fast)
+# Loading work.SV_TOP(fast)
+# Loading /home/t0252202/ucie_working_sccom/sccom_with_scmodule_sv_tb/work/_sc/linux_x86_64_gcc-10.3.0/systemc.so
+# Loading /home/t0252202/ucie_working_sccom/sccom_with_scmodule_sv_tb/work.tb_export
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_3_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_3_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_1_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_1_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/out_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/in_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/in_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/drv/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/drv/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_35_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_35_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_34_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_34_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_32_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_32_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_29_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_29_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_28_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_28_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_27_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_27_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_26_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_26_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_24_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_24_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_23_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_23_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_19_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_19_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_17_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_17_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_16_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_16_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_15_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_15_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_14_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_14_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_20' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_19' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_16' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_11_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_11_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_10_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_10_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_9_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_9_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/out_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/in_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/out_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_20' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_19' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/in_dat_10' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/in_dat_9' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_20' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_19' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_17' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_12' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_11' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_17' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_10' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_14' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_13' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_12' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_11' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_9' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_8' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_7' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_5' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_7' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_6' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_5' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_6' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_5' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_8' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_9' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_6' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_0' is of an undebuggable type.
+vsim SV_TOP run -all
+# ** UI-Msg (Error): (vish-3296) Unknown option '-all'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+vsim SV_TOP -t 1ps -do "run -all"
+# 
+# ========================================
+# Self-Check Results
+#   TX data words: 0
+#   RX data words: 0
+#   Lane words looped: 0
+#   SB packets looped: 0
+#   Overall: PASS
+# ========================================
+# 
+# CMODEL PASS
+# End time: 17:30:48 on Sep 21,2026, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 138
+# vsim SV_TOP -t 1ps -do "run -all" 
+# Start time: 17:30:48 on Sep 21,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.ucie_dpi_pkg(fast)
+# Loading work.SV_TOP(fast)
+# Loading /home/t0252202/ucie_working_sccom/sccom_with_scmodule_sv_tb/work/_sc/linux_x86_64_gcc-10.3.0/systemc.so
+# Loading /home/t0252202/ucie_working_sccom/sccom_with_scmodule_sv_tb/work.tb_export
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_3_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_3_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_1_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_1_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_in_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/sim_out_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/out_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/in_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/in_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/loopback/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/drv/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/drv/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_35_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_35_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_34_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_34_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_32_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_32_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_29_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_29_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_28_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_28_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_27_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_27_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_26_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_26_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_24_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_24_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_23_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_23_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_19_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_19_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_17_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_17_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_16_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_16_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_15_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_15_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_14_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_14_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_6_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_5_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_in_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/sim_out_0_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_20' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_19' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_16' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_11_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_11_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_10_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_10_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_9_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_9_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_8_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_7_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_4_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_in_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/sim_out_2_dat' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/out_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/in_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/out_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/lt/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_20' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_19' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/in_dat_10' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_3' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/in_dat_9' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/ctrl/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_2' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_20' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_19' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/out_dat_17' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_12' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/phy/in_dat_11' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_18' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_17' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_10' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_14' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_13' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_12' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_11' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_9' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_8' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_7' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_5' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_7' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_6' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_5' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_1' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/pl/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_6' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_5' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_8' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/out_dat_9' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_6' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_4' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/d2d/in_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/out_dat_0' is of an undebuggable type.
+# ** Warning: (vsim-4025) The port '/SV_TOP/u_sc_top/tb/dut/in_dat_0' is of an undebuggable type.
+# run -all
+# Connections Clock: /SV_TOP/u_sc_top/tb/clk Period: 1 ns
+# @2 ns Assert reset
+# @12 ns Deassert reset
+# 
+# ========================================
+# SV UCIe DPI Testbench
+# ========================================
+# 
+# ========================================
+# TEST1: Link Bring-up
+# ========================================
+# [22000] TEST1 AFE_LINK_DONE=0
+# [100022000] TEST1 AFE_LINK_DONE=0
+# [200022000] TEST1 AFE_LINK_DONE=0
+# [300022000] TEST1 AFE_LINK_DONE=0
+# [400022000] TEST1 AFE_LINK_DONE=0
+# [500022000] TEST1 AFE_LINK_DONE=0
+# [600022000] TEST1 AFE_LINK_DONE=0
+# [700022000] TEST1 AFE_LINK_DONE=0
+# [800022000] TEST1 AFE_LINK_DONE=0
+# [900022000] TEST1 AFE_LINK_DONE=0
+# [1000022000] TEST1 AFE_LINK_DONE=0
+# [1100022000] TEST1 AFE_LINK_DONE=0
+# [1200022000] TEST1 AFE_LINK_DONE=0
+# [1300022000] TEST1 AFE_LINK_DONE=0
+# [1400022000] TEST1 AFE_LINK_DONE=0
+# [1500022000] TEST1 AFE_LINK_DONE=0
+# [1600022000] TEST1 AFE_LINK_DONE=0
+# [1700022000] TEST1 AFE_LINK_DONE=0
+# [1800022000] TEST1 AFE_LINK_DONE=0
+# [1900022000] TEST1 AFE_LINK_DONE=0
+# [2000022000] TEST1 AFE_LINK_DONE=0
+# [2100022000] TEST1 AFE_LINK_DONE=0
+# [2200022000] TEST1 AFE_LINK_DONE=0
+# [2300022000] TEST1 AFE_LINK_DONE=0
+# [2400022000] TEST1 AFE_LINK_DONE=0
+# [2500022000] TEST1 AFE_LINK_DONE=0
+# [2600022000] TEST1 AFE_LINK_DONE=0
+# [2700022000] TEST1 AFE_LINK_DONE=0
+# [2800022000] TEST1 AFE_LINK_DONE=0
+# [2900022000] TEST1 AFE_LINK_DONE=0
+# [3000022000] TEST1 AFE_LINK_DONE=0
+# [3100022000] TEST1 AFE_LINK_DONE=0
+# [3200022000] TEST1 AFE_LINK_DONE=0
+# [3300022000] TEST1 AFE_LINK_DONE=0
+# [3400022000] TEST1 AFE_LINK_DONE=0
+# [3500022000] TEST1 AFE_LINK_DONE=0
+# [3600022000] TEST1 AFE_LINK_DONE=0
+# [3700022000] TEST1 AFE_LINK_DONE=0
+# [3800022000] TEST1 AFE_LINK_DONE=0
+# [3900022000] TEST1 AFE_LINK_DONE=0
+# 4.00 ms | LTSM: RST → SB_PAT_TX
+# [4000022000] TEST1 AFE_LINK_DONE=0
+# [4100022000] TEST1 AFE_LINK_DONE=0
+# 4.13 ms | LTSM: SB_PAT_TX → SB_PAT_WAIT
+# 4.13 ms | LTSM: SB_PAT_WAIT → SB_START
+# 4128015 ns | SB Loopback: pkt #0 code=0x10
+# 4.13 ms | LTSM: SB_START → SB_DONE
+# 4128017 ns | SB Loopback: pkt #1 code=0x12
+# 4.13 ms | LTSM: SB_DONE → MB_PARAM
+# 4128020 ns | SB Loopback: pkt #2 code=0x20
+# 4.13 ms | LTSM: MB_PARAM → MB_CAL
+# 4128023 ns | SB Loopback: pkt #3 code=0x22
+# 4.13 ms | LTSM: MB_CAL → MB_REV_INIT
+# 4128026 ns | SB Loopback: pkt #4 code=0x24
+# 4.13 ms | LTSM: MB_REV_INIT → MB_REV_WAIT
+# 4.13 ms | LTSM: MB_REV_WAIT → MB_REV_DONE
+# 4.13 ms | LTSM: MB_REV_DONE → MB_VALVREF
+# 4.13 ms | LTSM: MB_VALVREF → MB_DATAVREF
+# 4.13 ms | LTSM: MB_DATAVREF → MB_SIDLE
+# 4.13 ms | LTSM: MB_SIDLE → MB_RXCLK
+# 4.13 ms | LTSM: MB_RXCLK → MB_VALCENTER
+# 4.13 ms | LTSM: MB_VALCENTER → MB_LSPEED
+# 4.13 ms | LTSM: MB_LSPEED → LINKINIT
+# 4.13 ms | LTSM: LINKINIT → ACTIVE
+# 4.13 ms | PHY: RESET → ACTIVE
+# [4200022000] TEST1 AFE_LINK_DONE=0
+# [4300022000] TEST1 AFE_LINK_DONE=1
+# [4300022000] TEST1 PASS: AFE_LINK_DONE=1
+# 
+# ========================================
+# TEST2: Streaming Data Transfer
+# ========================================
+# 4300045 ns D2D_TX: Sending 68B flit proto_id=0 stack_id=0
+# 
+# ============================================================
+# 4300045 ns D2D_TX MONITOR : 68B FLIT
+# ------------------------------------------------------------
+# Protocol ID : 0
+# Stack ID    : 0
+# PDS         : NO
+# 
+# HEADER (2 bytes): 00 00 
+# DATA   (40 bytes): 00 00 00 00 00 00 00 a0 01 00 00 00 00 00 00 a0 02 00 00 00 00 00 00 a0 03 00 00 00 00 00 00 a0 04 00 00 00 00 00 00 a0 05 00 00 00 00 00 00 a0 06 00 00 00 00 00 00 a0 07 00 00 00 00 00 00 a0 
+# CRC    (2 bytes): ae c7 
+# 
+# COMPLETE PACKET: 00 00 00 00 00 00 00 00 00 a0 01 00 00 00 00 00 00 a0 02 00 00 00 00 00 00 a0 03 00 00 00 00 00 00 a0 04 00 00 00 00 00 00 a0 05 00 00 00 00 00 00 a0 06 00 00 00 00 00 00 a0 07 00 00 00 00 00 00 a0 ae c7 
+# ============================================================
+# 4300062 ns | Loopback: Lane word 0, valid=0xffff
+# 4300078 ns | Loopback: Lane word 1, valid=0xffff
+# [4300532000] TEST2 RX count=0 expected=8
+# ** Error: [4300532000] TEST2 count mismatch
+#    Time: 4300532 ns  Scope: SV_TOP.test2_streaming File: sv_top_dpi.sv Line: 113
+# 
+# ========================================
+# TEST3: L1 Power Management
+# ========================================
+# 4.30 ms | PHY: ACTIVE → L1
+# 4.30 ms | LTSM: ACTIVE → L1L2
+# [4300552000] TEST3 RDI_STATE=4
+# [4300552000] TEST3 PASS: PHY entered L1
+# 4.30 ms | PHY: L1 → WAIT_CLK_ACK
+# 4.30 ms | LTSM: L1L2 → RST
+# 4.30 ms | PHY: WAIT_CLK_ACK → CLK_FINAL
+# 4.30 ms | PHY: CLK_FINAL → DROP_CLK_REQ
+# 4.30 ms | PHY: DROP_CLK_REQ → RETRAIN
+# 4.30 ms | LTSM: RST → SB_PAT_TX
+# 4304062 ns D2D_TX: Sending 68B flit proto_id=0 stack_id=0
+# 
+# ============================================================
+# 4304062 ns D2D_TX MONITOR : 68B FLIT
+# ------------------------------------------------------------
+# Protocol ID : 0
+# Stack ID    : 0
+# PDS         : NO
+# 
+# HEADER (2 bytes): 00 00 
+# DATA   (40 bytes): 00 00 00 00 00 00 00 b0 01 00 00 00 00 00 00 b0 02 00 00 00 00 00 00 b0 03 00 00 00 00 00 00 b0 04 00 00 00 00 00 00 b0 05 00 00 00 00 00 00 b0 06 00 00 00 00 00 00 b0 07 00 00 00 00 00 00 b0 
+# CRC    (2 bytes): d2 d7 
+# 
+# COMPLETE PACKET: 00 00 00 00 00 00 00 00 00 b0 01 00 00 00 00 00 00 b0 02 00 00 00 00 00 00 b0 03 00 00 00 00 00 00 b0 04 00 00 00 00 00 00 b0 05 00 00 00 00 00 00 b0 06 00 00 00 00 00 00 b0 07 00 00 00 00 00 00 b0 d2 d7 
+# ============================================================
+# [4304552000] TEST3 RX count=0
+# 
+# ========================================
+# TEST4: L2 Power Management
+# ========================================
+# [4306552000] TEST4 RDI_STATE=11
+# ** Error: [4306552000] TEST4 FAIL: PHY did not enter L2
+#    Time: 4306552 ns  Scope: SV_TOP.test4_l2 File: sv_top_dpi.sv Line: 177
+# [4311052000] TEST4 RDI_STATE after L2 exit=0
+# 4311066 ns D2D_TX: Sending 68B flit proto_id=0 stack_id=0
+# 
+# ============================================================
+# 4311066 ns D2D_TX MONITOR : 68B FLIT
+# ------------------------------------------------------------
+# Protocol ID : 0
+# Stack ID    : 0
+# PDS         : NO
+# 
+# HEADER (2 bytes): 00 00 
+# DATA   (40 bytes): 00 00 00 00 00 00 00 c0 01 00 00 00 00 00 00 c0 02 00 00 00 00 00 00 c0 03 00 00 00 00 00 00 c0 04 00 00 00 00 00 00 c0 05 00 00 00 00 00 00 c0 06 00 00 00 00 00 00 c0 07 00 00 00 00 00 00 c0 
+# CRC    (2 bytes): a6 a6 
+# 
+# COMPLETE PACKET: 00 00 00 00 00 00 00 00 00 c0 01 00 00 00 00 00 00 c0 02 00 00 00 00 00 00 c0 03 00 00 00 00 00 00 c0 04 00 00 00 00 00 00 c0 05 00 00 00 00 00 00 c0 06 00 00 00 00 00 00 c0 07 00 00 00 00 00 00 c0 a6 a6 
+# ============================================================
+# [4311552000] TEST4 RX count=0
+# 
+# ========================================
+# TEST5: Retrain
+# ========================================
+# [4311562000] TEST5 RDI_STATE=11
+# [4311562000] TEST5 PASS: PHY entered RETRAIN
+# 4315072 ns D2D_TX: Sending 68B flit proto_id=0 stack_id=0
+# 
+# ============================================================
+# 4315072 ns D2D_TX MONITOR : 68B FLIT
+# ------------------------------------------------------------
+# Protocol ID : 0
+# Stack ID    : 0
+# PDS         : NO
+# 
+# HEADER (2 bytes): 00 00 
+# DATA   (40 bytes): 00 00 00 00 00 00 00 d0 01 00 00 00 00 00 00 d0 02 00 00 00 00 00 00 d0 03 00 00 00 00 00 00 d0 04 00 00 00 00 00 00 d0 05 00 00 00 00 00 00 d0 06 00 00 00 00 00 00 d0 07 00 00 00 00 00 00 d0 
+# CRC    (2 bytes): da b6 
+# 
+# COMPLETE PACKET: 00 00 00 00 00 00 00 00 00 d0 01 00 00 00 00 00 00 d0 02 00 00 00 00 00 00 d0 03 00 00 00 00 00 00 d0 04 00 00 00 00 00 00 d0 05 00 00 00 00 00 00 d0 06 00 00 00 00 00 00 d0 07 00 00 00 00 00 00 d0 da b6 
+# ============================================================
+# [4315562000] TEST5 RX count=0
+# 
+# ========================================
+# TEST6: Speed/Width Configuration
+# ========================================
+# ** Error: [4315567000] TEST6 FAIL: speed=0 width=0
+#    Time: 4315567 ns  Scope: SV_TOP.test6_speed_width File: sv_top_dpi.sv Line: 253
+# [4315567000] TEST6 REG_ACTIVE_SPEED=0
+# 4315589 ns D2D_TX: Sending 68B flit proto_id=0 stack_id=0
+# 
+# ============================================================
+# 4315589 ns D2D_TX MONITOR : 68B FLIT
+# ------------------------------------------------------------
+# Protocol ID : 0
+# Stack ID    : 0
+# PDS         : NO
+# 
+# HEADER (2 bytes): 00 00 
+# DATA   (40 bytes): 00 00 00 00 00 00 00 e0 01 00 00 00 00 00 00 e0 02 00 00 00 00 00 00 e0 03 00 00 00 00 00 00 e0 04 00 00 00 00 00 00 e0 05 00 00 00 00 00 00 e0 06 00 00 00 00 00 00 e0 07 00 00 00 00 00 00 e0 
+# CRC    (2 bytes): 5e 86 
+# 
+# COMPLETE PACKET: 00 00 00 00 00 00 00 00 00 e0 01 00 00 00 00 00 00 e0 02 00 00 00 00 00 00 e0 03 00 00 00 00 00 00 e0 04 00 00 00 00 00 00 e0 05 00 00 00 00 00 00 e0 06 00 00 00 00 00 00 e0 07 00 00 00 00 00 00 e0 5e 86 
+# ============================================================
+# 
+# ========================================
+# SV TESTS COMPLETE
+# TX words = 40
+# RX words = 0
+# ========================================
+# ** Note: $finish    : sv_top_dpi.sv(52)
+#    Time: 4316167 ns  Iteration: 0  Instance: /SV_TOP
+# 1
+# Break at sv_top_dpi.sv line 52
+add wave -position insertpoint REG_LP_CONTROL
+# ** UI-Msg (Warning): (vish-4014) No objects found matching 'REG_LP_CONTROL'.
+add wave -position insertpoint link_done
+# ** UI-Msg (Warning): (vish-4014) No objects found matching 'link_done'.
+add wave -position insertpoint g_sc_top
+# ** UI-Msg (Warning): (vish-4014) No objects found matching 'g_sc_top'.
+quit
+# 
+# ========================================
+# Self-Check Results
+#   TX data words: 40
+#   RX data words: 0
+#   FAIL: count mismatch (sent 40 received 0)
+#   Lane words looped: 4
+#   SB packets looped: 16
+#   Overall: FAIL
+# ========================================
+# 
+# CMODEL FAIL
+# End time: 17:38:39 on Sep 21,2026, Elapsed time: 0:07:51
+# Errors: 3, Warnings: 138
